@@ -12,86 +12,48 @@ github：https://github.com/yeetime/sou2
 由 imsyy 二次修改
 github：https://github.com/imsyy/sou2
 日期：2022-03-10
+========================================
+由 rocyan 二次修改
+github：https://github.com/yanpengnet/523
+日期：2024-08-18
 */
 
 // 默认搜索引擎列表
 var se_list_preinstall = {
     '1': {
         id: 1,
-        title: "百度",
-        url: "https://www.baidu.com/s",
-        name: "wd",
-        icon: "iconfont icon-baidu",
-    },
-    '2': {
-        id: 2,
         title: "必应",
         url: "https://cn.bing.com/search",
         name: "q",
         icon: "iconfont icon-bing",
     },
-    '3': {
-        id: 3,
+    '2': {
+        id: 2,
         title: "谷歌",
         url: "https://www.google.com/search",
         name: "q",
         icon: "iconfont icon-google",
     },
+    '3': {
+        id: 3,
+        title: "Rice",
+        url: "https://www.ricedata.cn/gene/accessions_switch.aspx",
+        name: "para",
+        icon: "iconfont ",
+    },
     '4': {
         id: 4,
-        title: "搜狗",
-        url: "https://www.sogou.com/web",
-        name: "query",
-        icon: "iconfont icon-sougousousuo",
+        title: "PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov",
+        name: "term",
+        icon: "iconfont icon-pubmed",
     },
     '5': {
         id: 5,
-        title: "360",
-        url: "https://www.so.com/s",
-        name: "q",
-        icon: "iconfont icon-360sousuo",
-    },
-    '6': {
-        id: 6,
-        title: "微博",
-        url: "https://s.weibo.com/weibo",
-        name: "q",
-        icon: "iconfont icon-xinlangweibo",
-    },
-    '7': {
-        id: 7,
-        title: "知乎",
-        url: "https://www.zhihu.com/search",
-        name: "q",
-        icon: "iconfont icon-zhihu",
-    },
-    '8': {
-        id: 8,
-        title: "Github",
-        url: "https://github.com/search",
-        name: "q",
-        icon: "iconfont icon-github",
-    },
-    '9': {
-        id: 9,
-        title: "BiliBili",
-        url: "https://search.bilibili.com/all",
-        name: "keyword",
-        icon: "iconfont icon-bilibilidonghua",
-    },
-    '10': {
-        id: 10,
-        title: "淘宝",
-        url: "https://s.taobao.com/search",
-        name: "q",
-        icon: "iconfont icon-taobao",
-    },
-    '11': {
-        id: 11,
-        title: "京东",
-        url: "https://search.jd.com/Search",
-        name: "keyword",
-        icon: "iconfont icon-jingdong",
+        title: "NCBI",
+        url: "https://www.ncbi.nlm.nih.gov/search/all",
+        name: "term",
+        icon: "iconfont icon-ncbi",
     }
 };
 
