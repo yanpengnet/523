@@ -165,10 +165,10 @@ function setBgImgInit() {
             pictures[0] = './img/background1.webp';
             pictures[1] = './img/background2.webp';
             pictures[2] = './img/background3.webp';
-            pictures[3] = './img/background4.webp';
-            pictures[4] = './img/background5.webp';
-            pictures[5] = './img/background6.webp';
-            pictures[6] = './img/background7.webp';
+            pictures[3] = './img/12.jpg';
+            pictures[4] = './img/13.jpg';
+            pictures[5] = './img/14.jpg';
+            pictures[6] = './img/15.jpg';
             pictures[7] = './img/background8.webp';
             pictures[8] = './img/background9.webp';
             pictures[9] = './img/background10.webp';
