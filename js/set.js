@@ -13,7 +13,7 @@ github：https://github.com/yeetime/sou2
 github：https://github.com/imsyy/sou2
 日期：2022-03-10
 ========================================
-由 rocyan 二次修改
+由 rocyan 三次修改
 github：https://github.com/yanpengnet/523
 日期：2024-08-18
 */
@@ -60,48 +60,28 @@ var se_list_preinstall = {
 // 默认快捷方式
 var quick_list_preinstall = {
     '1': {
-        title: "Vercel",
-        url: "https://vercel.com/",
+        title: "ZJU Mail",
+        url: "https://mail.zju.edu.cn/coremail/",
     },
     '2': {
-        title: "GitHub",
-        url: "https://github.com/",
+        title: "ZJU Buy",
+        url: "http://buy.zju.edu.cn/",
     },
     '3': {
-        title: "Cloudflare",
-        url: "https://dash.cloudflare.com/",
+        title: "ZJU 仪器预约",
+        url: "https://atc.zju.edu.cn/login.html",
     },
     '4': {
-        title: "W3school",
-        url: "https://www.w3school.com.cn/",
+        title: "ChatGPT",
+        url: "https://chatgpt.com/",
     },
     '5': {
-        title: "腾讯云",
-        url: "https://console.cloud.tencent.com/",
+        title: "聚合搜索",
+        url: "https://priv.au/",
     },
     '6': {
-        title: "阿里云",
-        url: "https://console.aliyun.com/",
-    },
-    '7': {
-        title: "百度网盘",
-        url: "https://pan.baidu.com/",
-    },
-    '8': {
-        title: "阿里云盘",
-        url: "https://www.aliyundrive.com/drive/",
-    },
-    '9': {
-        title: "Office",
-        url: "https://www.office.com/",
-    },
-    '10': {
-        title: "又拍云",
-        url: "https://console.upyun.com/",
-    },
-    '11': {
-        title: "CSDN",
-        url: "https://www.csdn.net/",
+        title: "Github",
+        url: "https://github.com/",
     },
     '12': {
         title: "哔哩哔哩",
