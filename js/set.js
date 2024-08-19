@@ -39,21 +39,21 @@ var se_list_preinstall = {
         title: "Rice",
         url: "https://www.ricedata.cn/gene/accessions_switch.aspx",
         name: "para",
-        icon: "iconfont ",
+        icon: "iconfont icon-rice",
     },
     '4': {
         id: 4,
         title: "PubMed",
         url: "https://pubmed.ncbi.nlm.nih.gov",
         name: "term",
-        icon: "iconfont icon-pubmed",
+        icon: "iconfont icon-p",
     },
     '5': {
         id: 5,
         title: "NCBI",
         url: "https://www.ncbi.nlm.nih.gov/search/all",
         name: "term",
-        icon: "iconfont icon-ncbi",
+        icon: "iconfont icon-n",
     }
 };
 
