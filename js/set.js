@@ -80,6 +80,18 @@ var quick_list_preinstall = {
         url: "https://priv.au/",
     },
     '6': {
+        title: "NCBI-BLAST",
+        url: "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome",
+    },
+    '7': {
+        title: "NCBI-Primer",
+        url: "https://www.ncbi.nlm.nih.gov/tools/primer-blast",
+    },
+    '8': {
+        title: "ID conver",
+        url: "https://bioinformatics.fafu.edu.cn/riceidtable/",
+    },
+    '9': {
         title: "Github",
         url: "https://github.com/",
     },
