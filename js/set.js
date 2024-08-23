@@ -64,38 +64,42 @@ var quick_list_preinstall = {
         url: "https://mail.zju.edu.cn/coremail/",
     },
     '2': {
+        title: "Gmail",
+        url: "https://mail.google.com/",
+    },
+    '3': {
         title: "ZJU Buy",
         url: "http://buy.zju.edu.cn/",
     },
-    '3': {
+    '4': {
         title: "ZJU 仪器预约",
         url: "https://atc.zju.edu.cn/login.html",
     },
-    '4': {
+    '5': {
         title: "ChatGPT",
         url: "https://chatgpt.com/",
     },
-    '5': {
+    '6': {
         title: "聚合搜索",
         url: "https://priv.au/",
     },
-    '6': {
+    '7': {
         title: "NCBI-BLAST",
         url: "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome",
     },
-    '7': {
+    '8': {
         title: "NCBI-Primer",
         url: "https://www.ncbi.nlm.nih.gov/tools/primer-blast",
     },
-    '8': {
+    '9': {
         title: "ID conver",
         url: "https://bioinformatics.fafu.edu.cn/riceidtable/",
     },
-    '9': {
+    '10': {
         title: "Github",
         url: "https://github.com/",
     },
-    '12': {
+    '11': {
         title: "哔哩哔哩",
         url: "https://www.bilibili.com/",
     }
