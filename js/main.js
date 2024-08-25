@@ -90,7 +90,7 @@ fetch('https://restapi.amap.com/v3/weather/weatherInfo?city=310058&key=9603ae390
     .then(response => response.json())
     .then(data => {
         $('#wea_text').html(city + '&nbsp;' + nighttemp + '℃' + '&nbsp;~&nbsp;' + daytemp + '℃')
-        $('#wea_text').text(city)
+        $('#wea').text(city)
         $('#tem1').text(nighttemp)
         $('#tem2').text(daytemp)
     })
