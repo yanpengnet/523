@@ -517,7 +517,7 @@ $(document).ready(function () {
     });
 
     // 时间点击
-    $("#time_text").on("wheel", function () {
+    $("#time_text").click(function () {
         if ($("#content").attr("class") === "box") {
             closeBox();
             closeSet();
@@ -526,6 +526,16 @@ $(document).ready(function () {
             openBox();
         }
     });
+    // 任意位置滚动
+    $(document).on("wheel", function () {
+        if ($("#content").attr("class") === "box") {
+            closeBox();
+            closeSet();
+            blurWd();
+        } else {
+            openBox();
+        }
+    }); 
 
     // 搜索引擎列表点击
     $(".search-engine-list").on("click", ".se-li", function () {
