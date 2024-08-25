@@ -517,7 +517,7 @@ $(document).ready(function () {
     });
 
     // 时间点击
-    $("#time_text").click(function () {
+    $("#time_text").on("wheel", function () {
         if ($("#content").attr("class") === "box") {
             closeBox();
             closeSet();
