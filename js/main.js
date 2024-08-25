@@ -86,7 +86,7 @@ function time() {
 //获取天气
 //每日限量 100 次
 //请前往 https://www.tianqiapi.com/index/doc?version=v6 申请（免费）
-fetch('https://restapi.amap.com/v3/weather/weatherInfo?key=9603ae390b34a60e9e908c0264b953048&city=310058&extensions=all')
+fetch('https://restapi.amap.com/v3/weather/weatherInfo?city=310058&key=9603ae390b34a60e9e908c0264b95304')
     .then(response => response.json())
     .then(data => {
         //$('#wea_text').html(data.wea + '&nbsp;' + data.tem_night + '℃' + '&nbsp;~&nbsp;' + data.tem_day + '℃')
