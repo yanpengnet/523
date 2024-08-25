@@ -526,14 +526,15 @@ $(document).ready(function () {
             openBox();
         }
     });
-    // 任意位置滚动
-    $(document).on("wheel", function () {
-        if ($("#content").attr("class") === "box") {
-            closeBox();
-            closeSet();
-            blurWd();
-        } else {
+    // 任意位置滚动up打开，down关闭
+    $(document).on("wheel", function (event) {
+        if (event.originalEvent.deltaY < 0) {
             openBox();
+        } else {
+            if ($("#content").attr("class") === "box") {
+                closeBox();
+                closeSet();
+                blurWd();
         }
     }); 
 
