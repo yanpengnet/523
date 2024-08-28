@@ -48,6 +48,13 @@ var se_list_preinstall = {
         name: "term",
         icon: "iconfont icon-360sousuo",
     },
+    '6': {
+        id: 6,
+        title: "BiliBili",
+        url: "https://search.bilibili.com/all",
+        name: "keyword",
+        icon: "iconfont icon-360sousuo",
+    },
     '5': {
         id: 5,
         title: "NCBI",
