@@ -54,21 +54,21 @@ var se_list_preinstall = {
         url: "https://www.ncbi.nlm.nih.gov/search/all",
         name: "term",
         icon: "iconfont icon-360sousuo",
-    }
+    },
     '6': {
         id: 6,
         title: "CNKI",
         url: "https://kns.cnki.net/kns8s/defaultresult/index",
         name: "kw",
         icon: "iconfont icon-360sousuo",
-    }
+    },
     '7': {
         id: 7,
         title: "BiliBili",
         url: "https://search.bilibili.com/all",
         name: "keyword",
         icon: "iconfont icon-360sousuo",
-    },
+    }
 };
 
 // 默认快捷方式
