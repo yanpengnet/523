@@ -48,13 +48,6 @@ var se_list_preinstall = {
         name: "term",
         icon: "iconfont icon-360sousuo",
     },
-    '6': {
-        id: 7,
-        title: "BiliBili",
-        url: "https://search.bilibili.com/all",
-        name: "keyword",
-        icon: "iconfont icon-360sousuo",
-    },
     '5': {
         id: 5,
         title: "NCBI",
@@ -69,6 +62,13 @@ var se_list_preinstall = {
         name: "kw",
         icon: "iconfont icon-360sousuo",
     }
+    '7': {
+        id: 7,
+        title: "BiliBili",
+        url: "https://search.bilibili.com/all",
+        name: "keyword",
+        icon: "iconfont icon-360sousuo",
+    },
 };
 
 // 默认快捷方式
@@ -85,39 +85,39 @@ var quick_list_preinstall = {
         title: "163 Mail",
         url: "https://email.163.com/",
     },
-    '3': {
+    '4': {
         title: "ZJU Buy",
         url: "http://buy.zju.edu.cn/",
     },
-    '4': {
+    '5': {
         title: "ZJU 仪器预约",
         url: "https://atc.zju.edu.cn/login.html",
     },
-    '5': {
+    '6': {
         title: "ChatGPT",
         url: "https://chatgpt.com/",
     },
-    '6': {
+    '7': {
         title: "聚合搜索",
         url: "https://priv.au/",
     },
-    '7': {
+    '8': {
         title: "NCBI-BLAST",
         url: "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome",
     },
-    '8': {
+    '9': {
         title: "NCBI-Primer",
         url: "https://www.ncbi.nlm.nih.gov/tools/primer-blast",
     },
-    '9': {
+    '10': {
         title: "ID conver",
         url: "https://bioinformatics.fafu.edu.cn/riceidtable/",
     },
-    '10': {
+    '11': {
         title: "Github",
         url: "https://github.com/",
     },
-    '11': {
+    '12': {
         title: "哔哩哔哩",
         url: "https://www.bilibili.com/",
     }
