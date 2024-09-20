@@ -49,7 +49,7 @@ var se_list_preinstall = {
         icon: "iconfont icon-360sousuo",
     },
     '6': {
-        id: 6,
+        id: 7,
         title: "BiliBili",
         url: "https://search.bilibili.com/all",
         name: "keyword",
@@ -60,6 +60,13 @@ var se_list_preinstall = {
         title: "NCBI",
         url: "https://www.ncbi.nlm.nih.gov/search/all",
         name: "term",
+        icon: "iconfont icon-360sousuo",
+    }
+    '6': {
+        id: 6,
+        title: "CNKI",
+        url: "https://kns.cnki.net/kns8s/defaultresult/index",
+        name: "kw",
         icon: "iconfont icon-360sousuo",
     }
 };
@@ -73,6 +80,10 @@ var quick_list_preinstall = {
     '2': {
         title: "Gmail",
         url: "https://mail.google.com/",
+    },
+    '3': {
+        title: "163 Mail",
+        url: "https://email.163.com/",
     },
     '3': {
         title: "ZJU Buy",
